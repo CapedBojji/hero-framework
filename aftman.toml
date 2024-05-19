@@ -6,3 +6,4 @@
 # rojo = "rojo-rbx/rojo@6.2.0"
 darklua = "seaofvoices/darklua@0.13.1"
 rojo = "rojo-rbx/rojo@7.4.1"
+run-in-roblox = "rojo-rbx/run-in-roblox@0.3.0"

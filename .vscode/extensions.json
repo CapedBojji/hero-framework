@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"antfu.file-nesting",
+		"evaera.vscode-rojo",
+		"wayou.vscode-todo-highlight",
+		"roblox-ts.vscode-roblox-ts",
+		"dbaeumer.vscode-eslint",
+		"SENKEN.vscode-multi-line-uncomment",
+	]
+}

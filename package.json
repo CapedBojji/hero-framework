@@ -54,7 +54,8 @@
 		"rimraf": "^5.0.7",
 		"roblox-ts": "2.3.0-dev-e6e7658",
 		"simple-git-hooks": "^2.11.1",
-		"typescript": "^5.4.5"
+		"typescript": "^5.4.5",
+		"@rbxts/testez": "0.4.2-ts.0"
 	},
 	"dependencies": {
 		"@rbxts/lapis": "^0.3.0",

@@ -95,6 +95,9 @@ importers:
       '@rbxts/compiler-types':
         specifier: 2.3.0-types.1
         version: 2.3.0-types.1
+      '@rbxts/testez':
+        specifier: 0.4.2-ts.0
+        version: 0.4.2-ts.0
       '@rbxts/types':
         specifier: ^1.0.776
         version: 1.0.776
@@ -497,6 +500,9 @@ packages:
 
   '@rbxts/t@3.1.1':
     resolution: {integrity: sha512-r+IvHHGLt9ZM8+cJAs5Q7ZyGaSlsbkXTaeat85FxRmjjozykHLbQ24rY/5utJbp63a5uCy3Wyl1fGv/Gk/GnIw==}
+
+  '@rbxts/testez@0.4.2-ts.0':
+    resolution: {integrity: sha512-8Q+OG9ddTD2P3aARCuRKpPqUBvuifgSnHvQMZ6jBMqUzxhIysnb0l4c3vnnaQnvdyZ1OW9tKxcdEHMGTb67uOw==}
 
   '@rbxts/types@1.0.776':
     resolution: {integrity: sha512-LmUYQW19HihJCMBtz6uKDF50X1V6OZHwvMNdgHVzaJz9bhEzBJI1nVLnmytysg/HYDB6TJ+ziaDptsviF2cZcg==}
@@ -3586,6 +3592,8 @@ snapshots:
   '@rbxts/t@2.2.1': {}
 
   '@rbxts/t@3.1.1': {}
+
+  '@rbxts/testez@0.4.2-ts.0': {}
 
   '@rbxts/types@1.0.776': {}
 

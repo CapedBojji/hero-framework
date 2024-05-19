@@ -22,7 +22,9 @@
 	"type": "module",
 	"files": [
 		"out",
-		"!**/*.tsbuildinfo"
+		"!**/*.tsbuildinfo",
+		"!out/services.d.ts",
+		"!**/testBootstrap.*"
 	],
 	"publishConfig": {
 		"access": "public"

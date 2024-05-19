@@ -1,40 +1,40 @@
 {
 	"compilerOptions": {
-		// required
-		"allowSyntheticDefaultImports": true,
-		"downlevelIteration": true,
+		"incremental": true,
+		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
+		"target": "ESNext",
 		"jsx": "react",
 		"jsxFactory": "React.createElement",
 		"jsxFragmentFactory": "React.Fragment",
+		"moduleDetection": "force",
+		"noLib": true,
+		"experimentalDecorators": true,
+		"baseUrl": "src",
+		"rootDir": "src",
 		"module": "commonjs",
 		"moduleResolution": "Node",
-		"noLib": true,
 		"resolveJsonModule": true,
-		"experimentalDecorators": true,
-		"forceConsistentCasingInFileNames": true,
-		"moduleDetection": "force",
+		"typeRoots": ["node_modules/@rbxts", "node_modules/@flamework"],
 		"strict": true,
-		"target": "ESNext",
-		"typeRoots": ["node_modules/@rbxts"],
-
-		// configurable
-		"rootDir": "src",
-		"outDir": "out",
-		"incremental": true,
-		"tsBuildInfoFile": "out/tsconfig.tsbuildinfo",
-		"declaration": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": true,
+		"noUncheckedIndexedAccess": true,
+		"downlevelIteration": true,
+		"outDir": "out/",
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
 		"plugins": [
 			{
-				"transform": "rbxts-transformer-t",
-			},
-			{
-				"transform": "rbxts-transform-debug",
+				"transform": "rbxts-transform-debug"
 			},
 			{
 				"transform": "rbxts-transform-env",
 				"shortCircuitNodeEnv": false
+			},
+			{
+				"transform": "rbxts-transformer-t-new",
 			}
 		]
 	},
-	"exclude": ["eslint.config.ts"]
+	"exclude": ["./eslint.config.ts"]
 }

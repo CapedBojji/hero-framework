@@ -1,13 +1,14 @@
 /node_modules
 /out
 /include
+/build
+
 *.tsbuildinfo
-flamework.build
+*.tgz
 
-# Misc
-.DS_Store
+# For mac users
+*.DS_store
 
-/dist
-sourcemap.json
-*.rbxl.lock
-*.rbxl
+# Settings (don't know why we would want other's settings as well, this is per user
+.vscode/*
+!.vscode/extensions.json
